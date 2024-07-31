@@ -40,7 +40,7 @@ A medida que vaya avanzando añadire mas pruebas y ficheros.
 ## Recursos Adicionales
 
 - [Documentación Oficial de Playwright](https://playwright.dev/)
-- [Presentación PPT](https://docs.google.com/presentation/d/1ECj3ZCGi_zbRFvmXzUqvKg_YOj-205-4N1rBbosE_qc/edit?usp=sharing)
+
 
 ## Contacto
 
