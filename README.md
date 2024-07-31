@@ -1,20 +1,20 @@
-# Introducción a Pruebas E2E con Playwright
+#  Introducción a Pruebas E2E con Playwright 
 
-Bienvenidos a mi repositorio de Pruebas E2E y primeros pasos con Playwright. 
-En el contexto del Bootcamp Qa funcional (FemQA) aprendimos sobre los fundamentos de las pruebas de extremo a extremo (E2E) 
-y discutimos las razones por las que Playwright se destaca como una herramienta para estas pruebas.
+¡Bienvenido a mi repositorio de Pruebas E2E!  En este proyecto, exploramos los fundamentos de las pruebas de extremo a extremo y cómo utilizar Playwright para automatizar estas pruebas.
 
-
-## Basic Info 
-
-1. **Que es el End-to-End Testing ? (E2E)**
-
-El testing de extremo a extremo (E2E) es una técnica de prueba de software que verifica la funcionalidad y el rendimiento de toda una aplicación de software de principio a fin, simulando escenarios de usuarios del mundo real y replicando datos en vivo.
-
-Objetivo: Identificar los errores que surgen cuando todos los componentes están integrados, asegurando que la aplicación entrega la salida esperada como una entidad unificada.
+En el contexto del <a href="https://femqa.basetis.com/es" target="_blank">Bootcamp FemQA de Basetis</a>
+aprendimos sobre los fundamentos de las pruebas de extremo a extremo (E2E) y discutimos las razones por las que Playwright se destaca como una herramienta para estas pruebas.
 
 
-2. **Que es Playwright ?**
+##  ¿Qué es el End-to-End Testing?
+
+El testing de extremo a extremo (E2E) es como conducir un coche de principio a fin para asegurarte de que todo funciona correctamente.  En el mundo del software, verificamos que nuestra aplicación funcione como se espera desde la interfaz de usuario hasta la base de datos. 
+
+##  ¿Qué es Playwright? 
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/7/75/Playwright_Logo.svg" alt="Playwright" style="margin: 8px" width="100" height="25"/></p>
+
+
+Playwright es una herramienta increíblemente poderosa para automatizar pruebas en navegadores.  Es como tener un robot que interactúa con tu aplicación web de la misma manera que un usuario real. en la documentacion oficial lo definen como:
 
 “Playwright es un framework para web testing y automation. Permite probar Chromium, Firefox y WebKit con una única API. Playwright está diseñado para permitir una automatización web entre navegadores que sea permanente, capaz, confiable y rápida.”
 Fuente:<a href="https://github.com/microsoft/playwright" target="_blank">Microsoft, playwright</a>
@@ -27,27 +27,31 @@ Playwright soporta multiples lenguajes:
 <li>.Net</li>
 </ul>
 
-3. **Contenido del Repo**
 
-Se trata de un repositorio simple donde guiandome por la documentacion Oficial instale los Example Test de Playwright y con el objetivo de aprender y experimentar duplique los ficheros para realizar E2E test de algun@s web como por ejemplo:
+##  Contenido del Repo
 
-<ul>
-<li><a href="https://femqa.basetis.com/es" target="_blank">Web FemQA - Basetis</a></li>
-</ul>
+En este repositorio encontrarás:
 
-A medida que vaya avanzando añadire mas pruebas y ficheros.
-
-## Recursos Adicionales
-
-- [Documentación Oficial de Playwright](https://playwright.dev/)
+* **Ejemplos de pruebas E2E:** a modo de practica y aprendizaje he creado pruebas para la web de FemQA y otras aplicaciones.
+* **Lenguaje principal:** TypeScript 
+* **Framework:** Playwright
 
 
-## Contacto
+##  ¡Contribuye! 
 
-Para más información o preguntas, no duden en contactarme:
+Si quieres colaborar o tienes alguna pregunta, no dudes en:
+* **Crear un issue:** ¡Tus comentarios son bienvenidos! 
+* **Hacer un fork:** Modifica el código y crea tu propia versión.
 
-- [Correo Electrónico](mailto:sylviall81@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/sllorentedev/)
+##  Recursos Adicionales
+* **Documentación Oficial de Playwright:** https://playwright.dev/
 
----
+##  Agradecimientos
+Agradezco a <a href="https://femqa.basetis.com/es" target="_blank">Bootcamp FemQA-Basetis</a> por proporcionar un entorno de aprendizaje tan enriquecedor.
 
+##  roadmap 
+* Agregar más pruebas para cubrir escenarios complejos.
+* Implementar pruebas visuales.
+* Integrar con herramientas de CI/CD.
+
+**¡Feliz testing!** 
