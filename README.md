@@ -32,9 +32,12 @@ Playwright soporta multiples lenguajes:
 
 En este repositorio encontrarás:
 
-* **Ejemplos de pruebas E2E:** a modo de practica y aprendizaje he creado pruebas para la web de FemQA y otras aplicaciones.
+* **Ejemplos de pruebas E2E:** a modo de practica y aprendizaje he creado pruebas automatizadas sencillas para la web de <a href="https://femqa.basetis.com/es" target="_blank">FemQA-Basetis</a>. Para verlas puedes ver el fichero <a href="./tests/femQAprueba.spec.ts" target="_blank">femQAprueba.spec.ts</a>.
 * **Lenguaje principal:** TypeScript 
 * **Framework:** Playwright
+* **Resultados obtenidos a fecha 31 de julio 2024:** 
+Adjunto captura de pantalla del reporte de playwright:
+<p><img src="https://res.cloudinary.com/dsesprxhl/image/upload/v1722454817/QA/Captura_desde_2024-07-31_21-34-33_neschy.png"/> </p>
 
 
 ##  ¡Contribuye! 
