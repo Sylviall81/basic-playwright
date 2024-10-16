@@ -13,6 +13,7 @@ test('has navBar', async ({ page }) => {
   await expect(navBar).toBeVisible();
 });
 
+//logo visible
 test('has logo', async ({ page }) => {
   await page.goto('https://es.wallapop.com/');
 
@@ -23,7 +24,7 @@ test('has logo', async ({ page }) => {
   
 });
 
-
+//enlace de logo funciona 
 test('link del logo redirige al home', async ({ page }) => {
   await page.goto('https://es.wallapop.com/');
 
@@ -76,6 +77,21 @@ test('botón de sign in (inicio sesión) es visible ', async ({ page }) => {
   });
 
 
+  test('barra de busqueda visible', async ({ page }) => {
+    await page.goto('https://es.wallapop.com/');
+  
+    // Aceptar cookies
+    const acceptCookiesButton = page.locator('#onetrust-accept-btn-handler');
+    if (await acceptCookiesButton.isVisible()) {
+      await acceptCookiesButton.click();
+    }
+  
+    // Busca el cuadro de búsqueda e ingresa un término
+    const searchBox = page.locator('#searchbox-form-input');
+    await expect(searchBox).toBeVisible();
+  });
+
+
   test('buscar un producto', async ({ page }) => {
     await page.goto('https://es.wallapop.com/');
   
@@ -86,15 +102,45 @@ test('botón de sign in (inicio sesión) es visible ', async ({ page }) => {
     }
   
     // Busca el cuadro de búsqueda e ingresa un término
-    const searchBox = page.getByRole('textbox', { name: 'Busca' });
+    const searchBox = page.locator('#searchbox-form-input');
     await searchBox.fill('bicicleta');
   
     // Presiona enter para buscar
     await searchBox.press('Enter');
   
     // Espera que los resultados sean visibles
-    const firstResult = page.locator('.ItemCard');
+    const firstResult = page.locator('#slideContainer').nth(0);
+  
+
     await expect(firstResult).toBeVisible();
+  
+  
+  });
+
+
+  test('buscar un producto 2a version', async ({ page }) => {
+    await page.goto('https://es.wallapop.com/');
+  
+    // Aceptar cookies
+    const acceptCookiesButton = page.locator('#onetrust-accept-btn-handler');
+    if (await acceptCookiesButton.isVisible()) {
+      await acceptCookiesButton.click();
+    }
+  
+    // Busca el cuadro de búsqueda e ingresa un término
+    const searchBox = page.locator('#searchbox-form-input');
+    await searchBox.fill('televisor');
+  
+    // Presiona enter para buscar
+    await searchBox.press('Enter');
+  
+    // Espera que los resultados sean visibles
+    
+    const segundoResultado = page.getByRole('link',{name:/Televisor/i});
+    
+  
+    await expect(segundoResultado).toBeVisible();
+  
   });
 
 
