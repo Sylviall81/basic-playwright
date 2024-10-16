@@ -32,13 +32,22 @@ Playwright soporta multiples lenguajes:
 
 En este repositorio encontrarás:
 
-* **Ejemplos de pruebas E2E:** a modo de practica y aprendizaje he creado pruebas automatizadas sencillas para la web de <a href="https://femqa.basetis.com/es" target="_blank">FemQA-Basetis</a>. Para verlas puedes ver el fichero <a href="./tests/femQAprueba.spec.ts" target="_blank">femQAprueba.spec.ts</a>.
+* **Ejemplos de pruebas E2E:**
+  
+* **1er Ejercicio - Web Basetis-FemQA:** A modo de práctica y aprendizaje he creado pruebas automatizadas sencillas para la web de <a href="https://femqa.basetis.com/es" target="_blank">FemQA-Basetis</a>. Para verlas puedes ver el fichero <a href="./tests/femQAprueba.spec.ts" target="_blank">femQAprueba.spec.ts</a>.
 * **Lenguaje principal:** TypeScript 
 * **Framework:** Playwright
 * **Resultados obtenidos a fecha 31 de julio 2024:** 
 Adjunto captura de pantalla del reporte de playwright:
 <p><img src="https://res.cloudinary.com/dsesprxhl/image/upload/v1722454817/QA/Captura_desde_2024-07-31_21-34-33_neschy.png"/> </p>
 
+* **2o Ejercicio - Wallapop:** 
+  He creado pruebas automatizadas sencillas para la conocida app de compra y venta de artículos de 2a mano <a href="https://es.wallapop.com/" target="_blank">Wallapop</a>. Para verlas puedes ver el fichero <a href="./tests/wallapopTest.spec.ts" target="_blank">wallapopTest.spec.ts</a>.
+* **Lenguaje principal:** TypeScript 
+* **Framework:** Playwright
+* **Resultados obtenidos a fecha 16 de Octubre 2024:** 
+Adjunto captura de pantalla del reporte de playwright:
+<p> <img src="https://res.cloudinary.com/dsesprxhl/image/upload/v1729080539/QA/Captura_desde_2024-10-16_14-08-43_czjdij.png"/> </p>
 
 ##  ¡Contribuye! 
 
