@@ -129,14 +129,14 @@ test('botón de sign in (inicio sesión) es visible ', async ({ page }) => {
   
     // Busca el cuadro de búsqueda e ingresa un término
     const searchBox = page.locator('#searchbox-form-input');
-    await searchBox.fill('televisor');
+    await searchBox.fill('mesa');
   
     // Presiona enter para buscar
     await searchBox.press('Enter');
   
     // Espera que los resultados sean visibles
     
-    const segundoResultado = page.getByRole('link',{name:/Televisor/i});
+    const segundoResultado = page.getByRole('link',{name:/mesa/i});
     
   
     await expect(segundoResultado).toBeVisible();
